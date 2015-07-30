@@ -1,0 +1,18 @@
+I used a Mac OS X 10.8 computer to complete this assignment.
+
+The Tiny Search Engine Project is intended to crawl the web, starting at a specified URL, and read/save all of the html files for each URL to a directory specified by the user.  The crawler then goes to all of the URLs on the given page and repeats the process.  The crawler continues until it reaches the max depth specified by the user. Once the web has been crawled, the indexer reads through all of the files in the directory and documets each word found (length > 3), and saves the words, their corresponding documents, the frequencies of the word in each document, and the overall number of documents in which the word was found.  This information is read out to a file.  The query engine reads in information from this file and uses it to search the URLs that had been crawled and indexed for a user-provided search term.
+
+In order to run the Tiny Search Engine, the crawler must be run first:
+./crawler http://old-www.cs.dartmouth.edu/~cs50/tse/ directory/
+
+Then the indexer on the information that the crawler returned:
+./indexer directory/ index.dat
+
+(or in testing mode):
+./indexer directory/ index.dat index.dat new_index.dat
+
+Then the query engine on the document that the indexer wrote to and the directory that the crawler returned:
+./query index.dat directory/
+
+Testing for the query engine is in the testing directory.
+Each component has an individual README and DesignSpec.pdf in its specific directory.

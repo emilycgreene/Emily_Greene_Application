@@ -1,0 +1,28 @@
+CrawlerTest.sh Results
+Output with the following incorrect arguments:
+
+Output with no arguments:
+Incorrect number of arguments provided.
+
+Output with one argument:
+Incorrect number of arguments provided.
+
+Output with two arguments:
+Incorrect number of arguments provided.
+
+Output with invalid directory:
+Error, you did not supply a valid directory
+
+Output with invalid url:
+Error, you did not supply a valid directory
+
+Output with invalid maxDepth:
+Error! maxDepth must be a number
+
+Return status with the following correct arguments:
+
+Return status at depth of 1:
+0
+
+
+Return status at depth of 2:

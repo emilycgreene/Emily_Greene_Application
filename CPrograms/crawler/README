@@ -1,0 +1,11 @@
+I used a Mac OS X 10.8 computer to complete this assignment.
+
+The assumptions that I made are that the crawlerTest.sh script would be run in the same directory as the Makefile. Additionally, I assumed that my current directory structure would not be changed for any reason (all the .c and .h files are in the src folder).
+
+I assumed that any user running the crawlerTest.sh wanted the three directories created (test1, test2, and test3 for depths 1-3 respectively) to be deleted at the end of the script, in addition to make clean. Therefore, the only new file remaining after calling ./crawlerTest.sh is the CrawlerTestLog.
+
+I assumed that the seedPage would be considered depth 0 and the crawler would crawl up to and including maxDepth (but would not crawl the pages at maxDepth for valid URLs).
+
+crawlerTest.sh will print to the console when it is finishing crawling at depths 1, 2, and 3.  It does not print to the console for the initial error testing.
+
+The only thing that crawlerTest.sh prints to the log file after crawling at depths 1, 2, and 3 is the return code (whether the crawl ran successfully).

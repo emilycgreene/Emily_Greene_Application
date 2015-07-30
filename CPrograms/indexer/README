@@ -1,0 +1,11 @@
+I used a Mac OS X 10.8 computer to complete this assignment.
+
+The assumptions that I made are that the BATS.sh script would be run in the same directory as the Makefile.  Additionally, I assumed that my current directory structure would not be changed in any way (all the .c and .h files are in the src folder, and the crawler directory would also remain unchanged).
+
+I assumed that any user running the BATS.sh script would want any temporary files to be deleted/cleaned at the end of the run except for the log file.
+
+the only thing that the BATS.sh sript prints to the log file after indexing is the return code (whether the indexing ran successfully), and the result of a dif between the two files created during the testing mode.
+
+BATS.sh will print to the console when it is finished running.  It does not print to the console after each test.
+
+Please see the README file in the parent directory (lab5) for further imformation about the full Tiny Search Engine assignment.

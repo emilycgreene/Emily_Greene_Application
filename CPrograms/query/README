@@ -1,0 +1,10 @@
+I used a Mac OS X 10.8 computer to complete this assignment.
+
+Assumptions made:
+1) That the user input would be less than 1000 characters.  If the user input is greater than 1000 characters, only the first 1000 characters will be read.
+2) That no single word inputted by the user is more than 200 characters.  If the user inputted word is greater than 200 characters, only the first 200 characters will be read and treated as a word.
+3) That no URL will be longer than 3000 characters.  According to Wikipedia, the world's longest URL is 2083 characters, so this restriction should not be an issue.
+4) That the .dat file and the directory were created by the indexer and the crawler portions of the TSE project respectively, and are therefore formatted correctly.
+5) That the .dat fle and the directory were created from the same crawl session and therefore correspond with each other.
+6) That the current directory structure will be maintained when running the program.
+7) That the user will end user input by pressing Ctrl+D.

@@ -1,0 +1,22 @@
+This Android application was developed with Dani Gnibus, Jason Feng, and Nick Fiacco.
+
+
+Overview:
+Hate when you’re the first person to arrive to a meeting place and proceed to wait by yourself for the next 20 minutes? Ever sit awkwardly in a restaurant trying not to let anyone see you’re sitting alone while you’re friends take their time getting there? Well now with OnTime, you and your friends can always arrive simultaneously!
+
+This application will use location services to help you coordinate arriving at the same time as your friends.  As you and your friends proceed towards a destination, you can see everyone’s progress towards the location of the event through visual bars on the event’s page.  
+
+Functionality:
+—Organize events between you and your closest friends
+—Location progress tracking using Google Maps and Location Services to determine the approximate arrival time of your friends
+—Search Google Maps for addresses and places 
+—Push notifications for invitations to events, as well as notifications when your friends accept your invitation
+—Facebook compatible, so that you can invite any of your Facebook friends with the application to your events
+
+Layout:
+—Sign-in Screen (initially shown on app installation, then My Events is shown on startup)
+—My Events (homepage) with button for create event and clickable list of events, each event has button saying On My Way! which notifies other invitees you have begun your travel to the event
+—Create Event fragment with dialogs to select invitees, set location, and set date/time
+—Event Information shows when and where an event is, and progress bar for other invitees distance to event.  Event creator can choose to delete event, invitees can choose to leave event, in which case all other invitees are notified
+—Past Events shows all events that have already occurred, with option to clear all
+—Settings tab that allows you to change settings as well as log into/out of Facebook

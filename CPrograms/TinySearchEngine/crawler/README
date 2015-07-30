@@ -4,3 +4,5 @@ To run the crawler component:
 ./crawler http://old-www.cs.dartmouth.edu/~cs50/tse/ directory/ depth
 
 Where directory is the directory in which you would like to put the results (must make the directory first) and depth is the depth level you would like to run (1-3)
+
+Please see the README file in the parent directory (TinySearchEngine) for further imformation about the full project.

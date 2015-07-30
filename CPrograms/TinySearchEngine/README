@@ -1,4 +1,4 @@
-The Tiny Search Engine Project is intended to crawl the web, starting at a specified URL, and read/save all of the html files for each URL to a directory specified by the user.  The crawler then goes to all of the URLs on the given page and repeats the process.  The crawler continues until it reaches the max depth specified by the user. Once the web has been crawled, the indexer reads through all of the files in the directory and documets each word found (length > 3), and saves the words, their corresponding documents, the frequencies of the word in each document, and the overall number of documents in which the word was found.  This information is read out to a file.  The query engine reads in information from this file and uses it to search the URLs that had been crawled and indexed for a user-provided search term.
+The Tiny Search Engine Project is intended to crawl the web, starting at a specified URL, and read/save all of the html files for each URL to a directory specified by the user.  The crawler then goes to all of the URLs on the given page and repeats the process.  The crawler continues until it reaches the max depth specified by the user. Once the web has been crawled, the indexer reads through all of the files in the directory and documents each word found (length > 3), and saves the words, their corresponding documents, the frequencies of the word in each document, and the overall number of documents in which the word was found.  This information is read out to a file.  The query engine reads in information from this file and uses it to search the URLs that had been crawled and indexed for a user-provided search term.
 
 In order to run the Tiny Search Engine, the crawler must be run first:
 ./crawler http://old-www.cs.dartmouth.edu/~cs50/tse/ path/to/directory/ depth
@@ -6,10 +6,10 @@ In order to run the Tiny Search Engine, the crawler must be run first:
 Then the indexer on the information that the crawler returned:
 ./indexer path/to/directory/ index.dat
 
-
 (or in testing mode):
 ./indexer path/to/directory/ index.dat index.dat new_index.dat
 
 Then the query engine on the document that the indexer wrote to and the directory that the crawler returned:
 ./query index.dat path/to/directory/
 
+More information about each component is included in the README documents in the sub-directory for each component.

@@ -1,4 +1,6 @@
 
+This component of the Tiny Search Engine is intended to allow the user to search for specific terms and will return the documents containing those words in descending order (the documents that have the most occurrences of the word are at the top).  When the user receives the “query:” prompt, the user can enter in one word, multiple words separated by spaces, word1 OR word2, or word1 AND word2.  Multiple words and the AND function behave the same: the user is looking for the combination of these words.  The only documents returned will be ones that contain all words queried.  The OR function queries documents that contain either word1 or word2 or both words.  Because user input is necessary in this program there are a variety of assumptions made regarding this input.
+
 Assumptions made for proper user input for query portion:
 1) That the user input would be less than 1000 characters.  If the user input is greater than 1000 characters, only the first 1000 characters will be read.
 2) That no single word inputted by the user is more than 200 characters.  If the user inputted word is greater than 200 characters, only the first 200 characters will be read and treated as a word.
@@ -7,3 +9,5 @@ Assumptions made for proper user input for query portion:
 5) That the .dat fle and the directory were created from the same crawl session and therefore correspond with each other.
 6) That the current directory structure will be maintained when running the program.
 7) That the user will end user input by pressing Ctrl+D.
+
+Please see the README file in the parent directory (TinySearchEngine) for further imformation about the full project.

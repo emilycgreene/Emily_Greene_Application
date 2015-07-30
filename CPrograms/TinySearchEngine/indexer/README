@@ -1,2 +1,13 @@
 
+This component of the Tiny Search Engine is intended to read through all of the HTML files that the crawler pulled from various websites and store the frequencies of each word (length > 3) in each document.  The indexer creates a structure to store frequencies of words in each document (total count of that word in that document), in which documents the word was found, and the total number of documents that word appears in.  This information will be used by the query component when the word is one of the search terms.
+
+To run the indexer component:
+./indexer path/to/directory/ index.dat
+Where the path/to/directory is the path to the directory that the crawler created with all of the HTML files and index.dat is the file to which the indexer will print.
+
+The indexer also has a testing mode to allow the user to confirm that the storage of words and documents is done correctly (storage device is a HashTable).  To run in testing mode:
+./indexer path/to/directory/ index.dat index.dat new_index.dat
+
+The user can then run a sort and diff between the index.dat and new_index.dat files to ensure they are the same.
+
 Please see the README file in the parent directory (TinySearchEngine) for further imformation about the full project.

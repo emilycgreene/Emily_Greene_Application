@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyRuns</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="profile">Profile photo:</string>
+    <string name="name">Name:</string>
+    <string name="email">Email:</string>
+    <string name="phone">Phone:</string>
+    <string name="classyear">Class:</string>
+    <string name="gender">Gender:</string>
+    <string name="major">Major:</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="preference">shared_preferences</string>
+    <string name="choose_pic">CHANGE</string>
+    <string name="name_hint">Your name here</string>
+    <string name="email_hint">Your email here</string>
+    <string name="phone_hint">Your phone number here</string>
+    <string name="class_hint">e.g. 2017</string>
+    <string name="major_hint">Your major here</string>
+    <string name="name_input">NameInput</string>
+    <string name="email_input">EmailInput</string>
+    <string name="phone_input">PhoneInput</string>
+    <string name="major_input">MajorInput</string>
+    <string name="gender_input">GenderInput</string>
+    <string name="class_input">ClassInput</string>
+    <string name="profile_saved">Profile saved</string>
+    <string name="profile_cancelled">Edits cancelled</string>
+    <string name="profile_photo_file_name">profile_photo.png</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inputtype">Input Type:</string>
+    <string name="activitytype">Activity Type:</string>
+    <string name="start">START</string>
+    <string name="sync">SYNC</string>
+    <string name="account_preferences">Account Preferences</string>
+    <string name="privacy_preference">Privacy setting</string>
+    <string name="summary_privacy_preference">Posting your records anonymously</string>
+    <string name="additional_preferences">Additional settings</string>
+    <string name="unit_preference">Unit Preference</string>
+    <string name="summary_unit_preference">Select the units in which you would like to see distance values</string>
+    <string name="comment_preference">Comment</string>
+    <string name="summary_comment_preference">Any suggestion to this course?</string>
+    <string name="misc_preferences">Misc.</string>
+    <string name="profile_preference">User Profile</string>
+    <string name="summary_profile_preference">Names, Email, Class, etc</string>
+    <string name="homepage_preference">Class homepage</string>
+    <string name="summary_homepage_preference">http://www.cs.dartmouth.edu/~campbell</string>
+    <string name="ui_profile_photo_picker_title">"Select profile image"</string>
+    <string name="dialog_fragment_tag_photo_picker">dialog_fragment_photo_picker</string>
+    <string name="datetime">Date and time:</string>
+    <string name="duration">Duration:</string>
+    <string name="distance">Distance:</string>
+    <string name="alert_dialog_ok">Ok</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+    <string name="distance_prompt">Distance (Miles):</string>
+    <string name="duration_prompt">Duration (Minutes):</string>
+    <string name="calorie_prompt">Calories:</string>
+    <string name="heartrate_prompt">Average Heart Rate (BPM):</string>
+    <string name="comment_prompt">Comment:</string>
+    <string name="timeset">Time</string>
+    <string name="dateset">Date</string>
+    <string name="hour">Hour</string>
+    <string name="min">Min</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="manual_entry">Manual Entry</string>
+    <string name="map_display">Map Display</string>
+    <string name="activity_entry">Exercise Entry</string>
+    <string name="conversion">Convert</string>
+    <string name="ui_sensor_service_toast_success_file_updated">Data file updated.</string>
+    <string name="ui_sensor_service_toast_success_file_created">Data file created.</string>
+    <string name="ui_sensor_service_toast_error_file_saving_failed">Failed saving the file. Check your storage.</string>
+
+    />                <string-array name="input_array">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="activity_array">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="unit_pref">
+        <item>Metric (Kilometers)</item>
+        <item>Imperial (Miles)</item>
+    </string-array>
+    <string-array name="ui_profile_photo_picker_items">
+        <item>Take picture from camera</item>
+        <item>Select photo from gallery</item>
+    </string-array>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="service_label">MyRuns</string>
+    <string name="service_started">Recording your path now</string>
+    <string name="ui_button_cancel_title">Cancel</string>
+    <string name="title_activity_map_display">Map</string>
+    <string name="title_activity_automatic">AutomaticActivity</string>
+    <string name="title_activity_map">Map</string>
+    <string name="server_addr">http://1-dot-greenemyruns.appspot.com</string>
+
+</resources>

@@ -1,0 +1,49 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:id="@+id/map"
+    tools:context="edu.dartmouth.cs.myruns.MapsActivity"
+    android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/type_stats"
+    android:text=" "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="#000000"/>
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true">
+
+<Button
+    android:id="@+id/btnSave"
+    android:onClick="onSaveClicked"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/save"
+    android:layout_weight="1"/>
+
+<Button
+    android:id="@+id/btnCancel"
+    android:onClick="onCancelClicked"
+    android:text="@string/cancel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"/>
+</LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/social_pref">
+        <PreferenceScreen
+            android:title="@string/login">
+
+            <intent android:action="edu.dartmouth.cs.ontime.SettingsActivity.action.ACTION_MAIN_ACTIVITY"/>
+
+        </PreferenceScreen>
+   </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/locations_pref">
+        <EditTextPreference
+            android:key="home_address"
+            android:title="@string/home_address"
+            android:summary="@string/home_address"
+            android:dialogTitle="@string/home_address_prompt" />
+        <EditTextPreference
+            android:key="work_address"
+            android:title="@string/work_address"
+            android:summary="@string/work_address"
+            android:dialogTitle="@string/work_address_prompt" />
+        </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/push_pref">
+        <CheckBoxPreference
+        android:key="notify_me"
+        android:title="@string/notify_me" />
+        <CheckBoxPreference
+            android:key="notify_others"
+            android:title="@string/notify_others" />
+        </PreferenceCategory>
+
+
+</PreferenceScreen>
